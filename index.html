@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Zac Distant Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <button class="hidden" id="myBtn" title="Go to top">
+        <i class="fa-solid fa-angle-up"></i>
+      </button>
+      <div class="navbar">
+        <a href="#" class="logo">zacdistant | UK</a>
+        <nav>
+          <ul class="nav">
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="#blog">Blog</a>
+            </li>
+            <li>
+              <a
+                href="./Zac Distant Curriculum Vitae .pdf"
+                download="Zac Distant CV"
+                class="cv"
+                >CV</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+
+      <section class="hero">
+        <div class="hero-container">
+          <div class="hero-content">
+            <h1>
+              I'm Zac, a Front-end Developer and
+              <em>Designer</em>
+            </h1>
+            <p>Take a scroll.</p>
+          </div>
+          <svg
+            class="down-arrow"
+            viewBox="0 0 23 106"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.3878 105.062C10.973 105.648 11.9227 105.649 12.5091 105.064L22.0644 95.5276C22.6508 94.9423 22.6517 93.9926 22.0665 93.4062C21.4813 92.8199 20.5315 92.8189 19.9452 93.4042L11.4516 101.881L2.97461 93.3875C2.38939 92.8011 1.43965 92.8002 0.853287 93.3854C0.266925 93.9706 0.265993 94.9204 0.851204 95.5067L10.3878 105.062ZM10.0506 0.996147L9.94947 104.001L12.9495 104.004L13.0506 0.999092L10.0506 0.996147Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </section>
+      <section class="projects reveal" id="projects">
+        <div class="project-container">
+          <div class="project-content"></div>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h1 class="reveal">Projects</h1>
+        <div class="projects-container reveal">
+          <div class="projects-content">
+            <img src="./Images/Group 1.jpg" alt="Spotify API" />
+            <p>
+              I created a Spotify app using the Spotify API. It allowes you to
+              view personal data such as, faviourite tracks, albums and artists.
+              <br />
+              <br />
+              The site is live using heroku and the code is available to see on
+              my github.
+            </p>
+            <div class="link">
+              <a
+                href="https://github.com/ZD12T4NT/Spotify-Data-App"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="
+                https://spotify-profile-data.herokuapp.com"
+                target="_blank"
+              >
+                <i class="fa-solid fa-window-maximize"></i
+              ></a>
+            </div>
+          </div>
+          <div class="projects-content reveal">
+            <img src="./Images/MacBook Pro 14_ - 1.jpg" alt="Budget Tracker" />
+            <p>
+              As I am saving for a house I decided to create a budget tracking
+              app. This application was created using React, Node, Express and
+              MongoDB.
+            </p>
+
+            <div class="link">
+              <a
+                href="https://github.com/ZD12T4NT/Budget-Tracker-Live"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://enigmatic-basin-37165.herokuapp.com/"
+                target="_blank"
+                ><i class="fa-solid fa-window-maximize"></i
+              ></a>
+            </div>
+          </div>
+          <div class="projects-content reveal">
+            <img
+              src="./Images/Screenshot 2022-03-27 at 21.21.48.png"
+              alt="Ecom Site"
+            />
+            <p>
+              This is a front-end ecommerce app created in <bold>React</bold>.
+              This website is front-end only and is centered around winter
+              sports wear! Take a look at the github repository and the live
+              website.
+            </p>
+            <div class="link">
+              <a
+                href="https://github.com/ZD12T4NT/React-FrontEnd-Ecom-Website"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <!-- <a href=""> <i class="fa-solid fa-window-maximize"></i></a> -->
+            </div>
+          </div>
+          <div class="projects-content reveal more">
+            <img
+              src="./Images/MacBook Pro 14_ - 1.png"
+              alt="social media app"
+            />
+            <p>
+              Currently this application is only visual, it is created in
+              <bold>react</bold> and styled with scss. I do plan on making this
+              a full stack app. Check out the repo for the code!
+            </p>
+            <div class="link">
+              <a
+                href="https://github.com/ZD12T4NT/social-media-app"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <!-- <a href=""> <i class="fa-solid fa-window-maximize"></i></a> -->
+            </div>
+          </div>
+        </div>
+        <div class="more-projects reveal">
+          <button id="more">MORE PROJECTS</button>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <h1 class="reveal">About Me</h1>
+        <div class="about-container">
+          <div class="about-content reveal">
+            <p>
+              Hello! My name is Zac, I am a self taught front-end developer who
+              enjoys creating things that live on the internet.
+              <br />
+              <br />
+              I love to learn new things and web development is one thing that I
+              love! I try and use vanilla JavaScript in my projects as much as I
+              can, as I believe fundamentals are important.
+              <br />
+              <br />
+              React is what I decided to learn next which was and still is fun.
+              Even though I would consider myself a front-end developer, I
+              decided to broaden my skillset and took a dive into Node.js. Along
+              the way I picked up knowledge of Bootstrap and SCSS and
+              implemented these skills in some projects.
+            </p>
+          </div>
+          <div class="about-content reveal">
+            <img
+              src="./Images/Black and Light Blue Classic Black and Neon Electronics and Appliances Banner.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="blog" id="blog">
+        <h1 class="reveal">My Blog</h1>
+        <div class="blog-content reveal">
+          <a href="https://distantdev.space/" target="_blank">
+            <img src="./images/Screenshot 2022-03-20 at 21.50.23.png" alt="" />
+          </a>
+        </div>
+      </section>
+
+      <section class="footer" id="contact">
+        <div class="footer-container">
+          <div class="footer-content reveal">
+            <h1>I WOULD <em>LOVE </em> TO HEAR FROM YOU.</h1>
+            <p>
+              Feel free to reach out if you want to collaborate, hire me or just
+              to chat.
+              <br />
+              <br />
+              I hope you enjoyed looking at my portfolio, happy coding!
+            </p>
+            <div class="social-media">
+              <a href="https://twitter.com/zacdistant" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://instagram.com/zacdistantcodes" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/zachary-distant-064675226/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/zd12t4nt" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-content reveal">
+            <form
+              action="https://formsubmit.co/zacdistant@gmail.com"
+              method="POST"
+            >
+              <h1 class="form-header">GET IN TOUCH</h1>
+              <div class="inputbox">
+                <input
+                  type="text"
+                  name="Name"
+                  required
+                  placeholder="Enter Name"
+                />
+                <input type="hidden" name="_subject" value="New Email!" />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://zacdistantdev.netlify.app/thanks.html"
+                />
+              </div>
+              <div class="inputbox">
+                <input
+                  type="email"
+                  name="Email"
+                  required
+                  placeholder="Enter Email"
+                />
+              </div>
+              <div class="inputbox">
+                <textarea
+                  name="message"
+                  required
+                  placeholder="Enter Message"
+                ></textarea>
+              </div>
+              <div class="inputbox">
+                <input class="submit" type="submit" value="Send" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./JS/app.js"></script>
+  </body>
+</html>
